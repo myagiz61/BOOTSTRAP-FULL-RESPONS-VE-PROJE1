@@ -1,0 +1,49 @@
+body{
+    background-image: url(/img/spiderman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: black !important; 
+}
+.menu{
+    width: 600px;
+}
+.menu p{
+    margin-left: 90px;
+    background-color: rgba(255, 255, 255, 0.437);
+}
+ @media(max-width:768px){
+    .syf div{
+        margin-left: -20px;
+        width: 350px;
+    }
+ .syf .rsm img{
+    width: 230px !important; 
+}
+.container{
+    margin-left: 25px !important;
+}
+.syf button{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.syf #tk{
+    margin-top: 8px !important;
+    margin-left: 100px !important;
+}
+#remz{
+    visibility: hidden;
+}
+ }
+ @media(min-width:768px){
+    .htr{
+        visibility: hidden;
+    }
+    
+    
+}
+.container img:hover{
+    transform: scale(1.03);
+    transition: all 0.2s ease;
+}
